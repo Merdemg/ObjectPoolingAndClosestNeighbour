@@ -75,4 +75,12 @@ public class FindNearestNeighbour : MonoBehaviour
             Find();
         }
     }
+
+    void OnDrawGizmos(){
+        if (nearestNeighbour != null)
+                {
+                    Gizmos.color = Color.blue;
+                    Gizmos.DrawLine(transform.position, nearestNeighbour.transform.position);
+                }
+    }
 }
