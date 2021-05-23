@@ -7,7 +7,7 @@ ________________________________________________________________________________
 Open ObjectPoolerTestScene to test the Object Pooler.
 Bomb Spawner spawns new bombs, in 1 of 5 pre assigned positions. The bombs are taken from the object pooler.
 Default pool size in Object Pooler is exposed to the editor as well as the Spawn Frequency in Bomb Spawner.
-If change settings to spawn bombs faster then they return to the pool, new bombs will be instantiated to increase the pool size.
+If you change the settings to spawn bombs faster then they return to the pool, new bombs will be instantiated to increase the pool size.
 
 ______________________________________________________________________________________________________________________________________________________________________
 
